@@ -21,9 +21,14 @@ p {
       height: "800px";
 }
 
+.white-text li a{
+  color: white;
+ }
+
 #landingFont {
   font-family: 'Berkshire Swash', cursive;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px #686868;
+  color: black;
 }
 
 #navNameFont {
@@ -34,7 +39,7 @@ p {
 }
 
 .flow-text{
-  color:blue;
+  color: black;
   font-family: 'Courgette', cursive;
 }
 

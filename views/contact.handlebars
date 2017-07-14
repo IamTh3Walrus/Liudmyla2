@@ -23,28 +23,36 @@
         </ul>
       </div>
     </nav>
+    <br><br>
 
-  <div class="parallax-container">
-    <div class="parallax"><img src="/images/image12.JPG"></div>
-  </div>
-    <div class="container">
+      <div class="container">
        <!-- Page Content goes here -->
-      <div class="row">
-          <div class="col s12"> <p class="flow-text">My name is Liudmyla Tkachenko. I was born in the Ukraine.
-            I started my modeling career when I was 16 years old. My credits in the Ukraine include Fashion Week, various magazines, and catalogs.
-             When I was 20 I started to work out side of my native country. My first professional contract was with a modeling agency in Hong Kong.
-             I spent 3 years in Asia working in China, Thailand, Hong Kong, and Turkey. While there I appeared at Hong Kong fashion week,
-             Shanghai Fashion Week, and  Shenzhen Fashion week, and was also featured in bikini
-              and clothing catalogs, and magazines. I've also done TV,  factory advertising, car advertising, and hotel advertising.
-               After working in Asia I moved to the United States where I've participated in New York Fashion week, multiple adverts
-               and also had some work printed in a Miami magazine. Currently, I am doing a lot of events and photo shoots
-                in the New York and LA area.</p>
-
-          </div>
-      </div>
-    </div>
-
-
+                 <form class="col s12" method="post" action="">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="first_name" name="first_name" type="text" class="validate" required="required">
+                <label for="first_name">Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" name="email"  type="email" class="validate" required="required">
+                <label for="email" data-error="Invalid">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1"  name="textarea1"  class="materialize-textarea" required="required"></textarea>
+                <label for="textarea1">Message</label>
+              </div>
+            </div>
+            <div class="row">
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+          <i class="material-icons right">send</i>
+          </button>
+            </div>
+          </form>
+     </div>
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="/js/materialize.js"></script>
